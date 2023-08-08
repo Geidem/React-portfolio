@@ -21,11 +21,15 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../src/assets/images/City-night.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+
 }
 
 code {
@@ -71,7 +75,7 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #0E5259;
+  color: #e4cc80;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -79,7 +83,7 @@ header h1 {
 
 header a {
   text-decoration: none;
-  color: #0E5259;
+  color: #e4cc80;
 }
 
 header nav {
@@ -112,8 +116,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: #0E5259;
-  color: #D5F2EA;
+  background: #2b776f;
+  color: #092e24;
   border-radius: 15px;
   text-shadow: none;
   /*    transition: .5s ease-in;*/
@@ -144,6 +148,7 @@ header nav ul li a:hover {
 }
 
 .hero-text h2 {
+  font-family: 'Raleway', sans-serif;
   font-style: italic;
   font-size: 55px;
   color: #e4cc80;
@@ -151,14 +156,15 @@ header nav ul li a:hover {
 }
 
 .hero-text p {
+  font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  color: #988e6a;
+  color: #dac88c;
 }
 
 /*Intro*/
 .intro p {
   line-height: 1.7;
-  color: #000000;
+  color: #ffffff;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
@@ -336,6 +342,195 @@ label {
   color: #e4cc80;
   font-size: 18px;
 }
+
+/*Resume section*/
+
+.download-intro p {
+  line-height: 1.7;
+  color: #e4cc80;
+  width: 95%;
+  font-size: 30px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.resume-body {
+  background-image: url("../src/assets/images/City-night.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+
+
+.resume-body>* {
+  flex: 1;
+  margin: 150px;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 30px 0 0 60px;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+
+
+.article {
+  margin: 10px;
+  margin-bottom: 1em;
+  background-color: #466769cd;
+  border-radius: 15px;
+  /* opacity: 0.9; */
+}
+
+
+.resume-body img {
+
+  height: auto;
+}
+
+.download-text {
+  height: auto;
+  color: #e4cc80;
+  /* margin-left: 20%; */
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.download-logo {
+  cursor: pointer;
+  list-style: none;
+  font-size: 50px;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.download-logo:hover {
+  color: #328C83;
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+
+
+.download-info {
+  flex: 3 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+/* .download-text {
+  flex: 12;
+} */
+/* 
+.download-text p {
+  color: #328C83;
+  font-size: 32px;
+} */
+
+
+
+.column-title {
+  color: #e4cc80;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.column-text {
+  color: #e4cc80;
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+.column-text ul li {
+  list-style: none;
+}
+
+.column-logo {
+  color: black;
+}
+
+/*End resume section*/
+
+/* start styles to <footer> */
+footer {
+  background: #323232a6;
+  font-weight: bold;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+footer h2 {
+
+  color: #e4cc80;
+  font-size: 25px;
+  margin: 0;
+}
+
+footer p {
+  color: #75BFB2;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+
+}
+
+footer div {
+
+  line-height: 1.5;
+  /* text-align: right; */
+}
+
+footer a {
+  color: #75BFB2;
+}
+
+footer a:hover {
+  color: #328C83;
+  transition: .5s ease;
+}
+
+.logo {
+  cursor: pointer;
+  list-style: none;
+  font-size: 40px;
+  color: #e4cc80;
+  display: inline-block;
+}
+
+.logo:hover {
+  color: #328C83;
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+/* end styles to <footer> */
 
 
 

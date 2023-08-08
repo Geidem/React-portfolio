@@ -32,15 +32,15 @@ function Resume() {
             <p className="column-title">Font-End Tech</p>
             <p className="column-text">
               <ul>
-                <li className="logo">
-                  <MdFoundation />
+                <li className="column-logo">
+                  <MdFoundation/>
                 </li>
                 <li>HTML5</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>APIs</li>
                 <li>Bootstrap</li>
-                <li>GIT</li>
+                <li>React</li>
               </ul>
             </p>
           </div>
@@ -51,7 +51,7 @@ function Resume() {
             <p className="column-title">Back-End Tech</p>
             <p className="column-text">
               <ul>
-                <li className="logo">
+                <li className="column-logo">
                   <GrTechnology />
                 </li>
                 <li>Node.Js</li>
@@ -69,7 +69,7 @@ function Resume() {
             <p className="column-title">Performance Tech</p>
             <p className="column-text">
               <ul>
-                <li className="logo">
+                <li className="column-logo">
                   <GrDocumentPerformance />
                 </li>
                 <li>NoSQL</li>
@@ -78,6 +78,7 @@ function Resume() {
                 <li>Mongoose</li>
                 <li>GraphQL</li>
                 <li>React</li>
+                <li>GIT</li>
                 <li>MERN</li>
                 <li>State</li>
               </ul>
