@@ -1,15 +1,27 @@
 import React from 'react';
-
+import profileImage from '../assets/images/Profile-pic.jpeg';
 function About() {
     return (
-    <div class = "flex-row">
-        <p className= "medium content"> Business owner and aspiring something-of-a Full Stack Developer </p>
-        <hr/>
-        <p className= "intro content"> 
-        My name is Geofferey "Gibby" Eidem, I'm a 29 years old and I am looking to change career paths and explore the world of web development and coding. I have owned and operated my own business for the past 4 years, 
-        yet I've always had a passion for technology and learning. Enrolling in the University of Utah's Coding Bootcamp has been a great experience so far and I am excited to see where this newfound knowledge will take me.
-        </p> 
-    </div>
+        <section>
+            <div class="flex-row">
+                <h1 id = "about" className= "section-title primary-border">
+                    About Me
+                </h1>
+            </div>
+            <div class="flex-row">
+                <div class = "intro-info">
+                    <div class="intro-img">
+                        <img src= {profileImage} style= {{width: "100%"}} alt="Profile Picture" />
+                    </div>
+                    <p>
+                        Hello! My name is Geofferey Eidem, a 29-year-old residing in the city of Farmington, Utah. etc etc
+                    </p>
+                    <p>
+                        I am currently enrolled in the University of Utah's Coding Bootcamp, and am excited to learn more about web development and programming in general.
+                    </p>
+                </div>
+            </div>
+        </section>
     );
 }
 

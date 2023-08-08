@@ -1,50 +1,42 @@
-import React, { useState } from 'react';
-import Navigation from './Navigation';
-import About from './About';
-import Contact from './Contact';
-import Portfolio from './Portfolio';
-import Resume from './Resume';
+import React from 'react';
+import Nav from './Navigation';
 
-function Header() {
-    const [currentPage, handlePageChange] = useState('Home');
+function Header(props) {
+ const { currentTab, handleTabChange } = props;
 
-const renderPage = () => {
-    switch (currentPage) {
-        case 'About':
-            return <About />;
-        case 'Contact':
-            return <Contact />;
-        case 'Portfolio':
-            return <Portfolio />;
-        case 'Resume':
-            return <Resume />;
-        default:
-            return <About />;
-    }
-};
-
-return (
+ return (
     <div>
-        <nav className= "navbar">
-            <div className="navbar-brand">
-                <a
-                classname = "navbar-item"
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/Geidem?tab=repositories"
-                >
-                    <span className="content is-large"> Geofferey (Gibby) Eidem</span>
-                </a>
+        <section>
+            <header>
+                <div>
+                <h1>Geofferey Eidem's Portfolio</h1>
+                </div>
+                <div>
+                    <Nav
+                        currentTab={currentTab}
+                        handleTabChange={handleTabChange}
+                    ></Nav>
+                </div>
+            </header>
+        </section>
+        <section class= "hero">
+            <div class="hero-text">
+                {/* <img
+            src={coverImage}
+            className="my-2"
+            style={{ width: "100%" }}
+            alt="cover"
+          /> */}
+                <h2>Welcome</h2>
+                <p>
+                    Welcome to Gibby Eidem's portfolio page built with React. Here you will find a little bit about me, 
+                    my contact information, and some of my projects.
+                </p>
             </div>
-        </nav>
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-
-        <main>
-            <div>{renderPage(currentPage)}</div>
-        </main>
+        </section>
     </div>
-        );
-    }
+    );
+ }
 
     export default Header;
 
