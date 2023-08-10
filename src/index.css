@@ -195,14 +195,15 @@ header nav ul li a:hover {
 }
 
 .intro-text p {
-  color: #328C83;
+  color: #e4cc80;
   font-size: 18px;
 }
 
 .intro-info p {
-  color: #328C83;
+  color: #e4cc80;
   font-size: 18px;
-  margin-left: 55px
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 /* extra titles stylings */
