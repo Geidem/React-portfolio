@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/React-portfolio/static/css/main.d6fd4249.css",
-    "main.js": "/React-portfolio/static/js/main.b4d050b8.js",
+    "main.js": "/React-portfolio/static/js/main.96da68e1.js",
     "static/media/Profile-pic.png": "/React-portfolio/static/media/Profile-pic.b23bc634cb0e92dbaafa.png",
     "static/media/SearchCity.png": "/React-portfolio/static/media/SearchCity.52e6f2893b95b4ad6c31.png",
+    "static/media/JHmedical.png": "/React-portfolio/static/media/JHmedical.76861018a86842c16a2e.png",
     "static/media/City-night.jpeg": "/React-portfolio/static/media/City-night.377dfed4535552023676.jpeg",
     "static/media/Workday.png": "/React-portfolio/static/media/Workday.ac9572158318526afbe8.png",
     "static/media/GSE-resume.pdf": "/React-portfolio/static/media/GSE-resume.3adc3dda9e606f929eee.pdf",
@@ -11,10 +12,10 @@
     "static/media/Headling-hq.png": "/React-portfolio/static/media/Headling-hq.28fe8f3aebcb9db390dd.png",
     "index.html": "/React-portfolio/index.html",
     "main.d6fd4249.css.map": "/React-portfolio/static/css/main.d6fd4249.css.map",
-    "main.b4d050b8.js.map": "/React-portfolio/static/js/main.b4d050b8.js.map"
+    "main.96da68e1.js.map": "/React-portfolio/static/js/main.96da68e1.js.map"
   },
   "entrypoints": [
     "static/css/main.d6fd4249.css",
-    "static/js/main.b4d050b8.js"
+    "static/js/main.96da68e1.js"
   ]
 }
