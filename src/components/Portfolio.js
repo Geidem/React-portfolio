@@ -4,6 +4,7 @@ import hireMe from '../assets/images/Hire-me.png';
 import easyNoteTaker from '../assets/images/note-welcome.png';
 import weatherDashboard from '../assets/images/SearchCity.png';
 import workDay from '../assets/images/Workday.png';
+import JHmedical from '../assets/images/JHmedical.png';
 
 function Portfolio() {
     return (
@@ -13,6 +14,27 @@ function Portfolio() {
                     <h2 className="section-title secondary-border">Work</h2>
                 </div>
 
+                <div className="job">
+                    <div className="job-info">
+                        <div className="job-img">
+                            <a href="https://jh-medical-6686065930da.herokuapp.com/">
+                                {" "}
+                                <img
+                                    src={JHmedical}
+                                    className="my-2"
+                                    style={{ width: "100%" }}
+                                    alt="JH Medical"
+                                />
+                            </a>
+                        </div>
+                        <div className="job-text">
+                            <h4> JH Medical Inc</h4>
+                            <p>
+                                A real-world use site for a medical supply company. This site was built using React, Node, Express, and MongoDB.
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div className="job">
                     <div className="job-info">
                         <div className="job-img">
@@ -29,7 +51,7 @@ function Portfolio() {
                         <div className="job-text">
                             <h4> Headline HQ</h4>
                             <p>
-                                Headline HQ description here
+                               An application that allows users to search for news articles by topic. This site was built using HTML, CSS, JavaScript, and jQuery.
                             </p>
                         </div>
                     </div>
@@ -51,7 +73,7 @@ function Portfolio() {
                         <div className="job-text">
                             <h4> Hire.me</h4>
                             <p>
-                                Hire.me description here
+                                This application is a job search site that allows users to search for jobs by title and location. 
                             </p>
                         </div>    
                      </div>
