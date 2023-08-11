@@ -72,7 +72,7 @@ function Contact() {
                 <div className="contact-form">
                     <h3>Contact me</h3>
                     <form className="form">
-                        <label for="contact-name">Your name</label>
+                        <label for="contact-name">Your name:</label>
                         <input
                             value={userName}
                             name="userName"
@@ -82,7 +82,7 @@ function Contact() {
                             placeholder="Name"
                         />
 
-                        <label for="contact-email">Your email</label>
+                        <label for="contact-email">Your email:</label>
                         <input
                             value={email}
                             name="email"
@@ -92,7 +92,7 @@ function Contact() {
                             placeholder="Email"
                         />
 
-                        <label for="contact-message">message</label>
+                        <label for="contact-message">Message:</label>
                         <textarea
                             value={message}
                             name="message"
